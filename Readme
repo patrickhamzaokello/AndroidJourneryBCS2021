@@ -1,0 +1,17 @@
+Kotlin and Java Differences
+
+#Key Differences Between Kotlin and Java Identified in prjoect [MyCourseApp] and [MyCourseListKotlin]
+
+1. Kotlin doesn't support static members, while Java uses static members.
+2. There are no null variables or objects in Kotlin while on the other hand, Null variable or objects are part of Java language.
+3. Kotlin doesn't require any variable datatype specifications but Java requires variable datatype specifications .
+4. Kotlin programs don't require semicolons in their program while Java program does need a semicolon.
+5. If a function does not return any useful value, its return type is Unit. Unit is a type with only one value - Unit. This value does not have to be returned explicitly:
+6. Strings are immutable. Once you initialize a string, you can't change its value or assign a new value to it. All operations that transform strings return their results in a new String object, leaving the original string unchanged.
+
+
+Other Key Differences
+1.Function parameters are defined using Pascal notation - name: type. Parameters are separated using commas. Each parameter must be explicitly typed while In Java  only class names are declared in Pascal notation
+2. Kotlin combines features of both object-oriented and functional programming, whereas Java is limited to object-oriented programming.
+3. In, Kotlin variables of a primitive type are objects while in Java Variables of a primitive type aren't objects
+
